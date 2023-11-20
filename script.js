@@ -5,7 +5,7 @@
 
 	button.addEventListener("click" , onclicking);
 
-fucntion onclicking(){
+function onclicking(){
 	
 
 	alert(Number(p.innertext));
