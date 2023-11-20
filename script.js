@@ -1,5 +1,8 @@
 //your JS code here. If required.
 function increasedcount(){
-	let elm  = document.getElementBYId("counter");
-	alert(elm.innerText +1);
+	let p  = document.getElementBYId("counter");
+	let button = document.getElementById("incrementBtn");
+	
+	alert(Number(p.innertext));
+	p.innerText++;
 }
