@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-	let p  = document.getElementBYId("counter");
+	let p = document.getElementById("counter");
 	let button = document.getElementById("incrementBtn");
 
 	button.addEventListener("click" , onclicking);
